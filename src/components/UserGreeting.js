@@ -10,9 +10,8 @@ class UserGreeting extends Component {
   }
 
   render() {
-    // approach 4
-    return this.state.isLoggedIn && <div>Welcome Pride</div>;
-
+    // // approach 4
+    // return this.state.isLoggedIn && <div>Welcome Pride</div>;
     // // approach 3
     // return this.state.isLoggedIn ? (
     //   <div>Welcome Pride</div>
