@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import LifeCycleA from "./components/LifeCycleA";
+import FocusInput from "./components/FocusInput";
 function App() {
   return (
     <div className='App'>
-      <LifeCycleA />
+      <FocusInput></FocusInput>
     </div>
   );
 }
