@@ -1,12 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ClickCounter from "./components/ClickCounter";
-import HoverCounter from "./components/HoverCounter";
+import CounterHook from "./components/HookComponents/CounterHook";
 function App() {
   return (
     <div className='App'>
-      <ClickCounter name='Sikis Ustasi'></ClickCounter>
-      <HoverCounter></HoverCounter>
+      <CounterHook />
     </div>
   );
 }
