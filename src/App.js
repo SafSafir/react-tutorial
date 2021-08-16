@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import CounterHook from "./components/HookComponents/CounterHook";
+import CounterTwo from "./components/HookComponents/CounterTwo";
 function App() {
   return (
     <div className='App'>
-      <CounterHook />
+      <CounterTwo></CounterTwo>
     </div>
   );
 }
