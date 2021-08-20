@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
-import CounterTwo from "./components/HookComponents/CounterTwo";
+import Counter from "./components/HookComponents/Counter";
 function App() {
   return (
     <div className='App'>
-      <CounterTwo></CounterTwo>
+      <Counter />
     </div>
   );
 }
