@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
-import Counter from "./components/HookComponents/Counter";
+import DocTitleOne from "./components/HookComponents/DocTitleOne";
+import DocTitleTwo from "./components/HookComponents/DocTitleTwo";
+
 function App() {
   return (
     <div className='App'>
-      <Counter />
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
   );
 }
